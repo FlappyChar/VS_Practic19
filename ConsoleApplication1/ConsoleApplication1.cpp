@@ -45,7 +45,7 @@ public:
 
     void Voice() override
     {
-        cout << "Mooo!" << endl;
+        cout << "Mooo!";
     }
 };
 
