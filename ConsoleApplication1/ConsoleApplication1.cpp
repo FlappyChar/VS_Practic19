@@ -6,19 +6,12 @@ using namespace std;
 class Animal
 {
 public:
-
     virtual void Voice(){}
 };
 
 class Dog: public Animal
 {
-
-private:
-
-    string voice = "Woof!";
-
 public:
-
     void Voice() override
     {
         cout << "Woof!" << endl;
@@ -27,12 +20,7 @@ public:
 
 class Cat : public Animal
 {
-private:
-
-    string voice = "Meow!";
-
 public:
-
     void Voice() override
     {
         cout << "Meow!" << endl;
